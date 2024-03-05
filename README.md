@@ -84,18 +84,21 @@
 ## About The Project
 
 안녕하세요! Isaac Gym관련해서 설치하는 방법에 대해서 간략하게 작성해보려 합니다. GPU로 RTX4090을 통해서 진행하였습니다.
+<br>
 
 ![Screenshot from 2024-03-06 00-33-52](https://github.com/junofficial/IsaacGym_Install/assets/124868359/6e0b5725-a817-4781-acad-b971808e17a1)
 
-
+<br>
 Isaac Gym의 경우 Nvidia에서 제공하는 로봇 공학을 위한 플랫폼으로 위에 첨부한 Nvidia의 Isaac Gym 사이트에서 가입과 권한 허가 이후 Isaac Gym 파일을 다운 받을 수 있습니다.
-
+<br>
 
 <p align="center">
-  <img src="![Screenshot from 2024-03-06 00-39-49](https://github.com/junofficial/IsaacGym_Install/assets/124868359/9000fed9-87ad-4bfb-95d7-ef00ccd72f27)">
+  <img src="https://github.com/junofficial/IsaacGym_Install/assets/124868359/9000fed9-87ad-4bfb-95d7-ef00ccd72f27">
 </p>
 
-정상적으로 진행하셨다면 이러한 파일을 다운로드 받을 수 있습니다.
+
+정상적으로 진행하셨다면 이러한 파일을 다운로드 받을 수 있습니다. 다운로드한 파일을 압축해제 해주시고 설치를 진행하게 됩니다.
+
 
 
 Use the `BLANK_README.md` to get started.
@@ -136,8 +139,8 @@ This is an example of how to list things you need to use the software and how to
   ```
 
 ### Installation
+다음 'conda create -n IsaacGym python=3.7' 을 통해 환경을 create 해주시고 설치를 진행하겠습니다. 
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
