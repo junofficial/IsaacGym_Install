@@ -84,6 +84,7 @@
 ## About The Project
 
 안녕하세요! Isaac Gym관련해서 설치하는 방법에 대해서 간략하게 작성해보려 합니다. GPU로 RTX4090을 통해서 진행하였습니다.
+(작동은 정상적으로 하는데 cuda버전을 하나로 통일 하지 못해 이후 수정하도록 하겠습니다)
 <br>
 
 ![Screenshot from 2024-03-06 00-33-52](https://github.com/junofficial/IsaacGym_Install/assets/124868359/6e0b5725-a817-4781-acad-b971808e17a1)
@@ -139,19 +140,28 @@ This is an example of how to list things you need to use the software and how to
   ```
 
 ### Installation
-다음 'conda create -n IsaacGym python=3.7' 을 통해 환경을 create 해주시고 설치를 진행하겠습니다. 
+먼저 
+```sh
+   conda create -n IsaacGym python=3.7
+```
+을 통해 파이썬 3.7의 환경을 create와 activate 해주시고 설치를 진행하겠습니다. 
 
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Cuda toolkit 설치(본인 컴퓨터에 맞는 버전으로 선택):
+![Screenshot from 2024-03-06 00-27-09](https://github.com/junofficial/IsaacGym_Install/assets/124868359/cab75001-280b-4ec3-a294-24520cb88cfd)
+2. pytorch 1.12.1과 cuda-11.6 설치:
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu116
    ```
-3. Install NPM packages
+3. 압축해제한 isaacgym 파일을 대상으로 밑의 명령어 실행: 
    ```sh
-   npm install
+   cd isaacgym/python && pip install -e .
    ```
-4. Enter your API in `config.js`
+4. isaacgym이 설치됬는지 확인하기 위해 example 실행:
+   ```sh
+   cd examples && python 1080_balls_of_solitude.py
+   ```
+   Ubuntu 20.04 기준 exa
+5. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
