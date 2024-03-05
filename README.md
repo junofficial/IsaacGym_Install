@@ -79,4 +79,5 @@ conda create -n IsaacGym python=3.7
 설치한 Isaac Gym을 통해서 4족보행로봇을 Parallel Deep RL을 통해 학습시키는 legged_gym과 mppi방법을 통해서 로봇팔을 제어하는 storm을 사용해보았습니다. 관련 링크들은 밑에 첨부해뒀으며 추가 설치 내용은 첨부된 github에 작성된 내용을 통해 진행하시면 됩니다.
 
 https://github.com/leggedrobotics/legged_gym
+<br>
 https://github.com/NVlabs/storm?tab=readme-ov-file
