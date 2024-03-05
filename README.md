@@ -90,7 +90,10 @@
 
 Isaac Gym의 경우 Nvidia에서 제공하는 로봇 공학을 위한 플랫폼으로 위에 첨부한 Nvidia의 Isaac Gym 사이트에서 가입과 권한 허가 이후 Isaac Gym 파일을 다운 받을 수 있습니다.
 
-![Screenshot from 2024-03-06 00-39-49](https://github.com/junofficial/IsaacGym_Install/assets/124868359/9000fed9-87ad-4bfb-95d7-ef00ccd72f27)
+
+<p align="center">
+  <img src="![Screenshot from 2024-03-06 00-39-49](https://github.com/junofficial/IsaacGym_Install/assets/124868359/9000fed9-87ad-4bfb-95d7-ef00ccd72f27)">
+</p>
 
 정상적으로 진행하셨다면 이러한 파일을 다운로드 받을 수 있습니다.
 
