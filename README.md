@@ -83,7 +83,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Screenshot from 2024-03-06 00-33-52](https://github.com/junofficial/IsaacGym_Install/assets/124868359/6e0b5725-a817-4781-acad-b971808e17a1)
+
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
