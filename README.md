@@ -83,17 +83,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+안녕하세요! Isaac Gym관련해서 설치하는 방법에 대해서 간략하게 작성해보려 합니다. GPU로 RTX4090을 통해서 진행하였습니다.
+
 ![Screenshot from 2024-03-06 00-33-52](https://github.com/junofficial/IsaacGym_Install/assets/124868359/6e0b5725-a817-4781-acad-b971808e17a1)
 
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Isaac Gym의 경우 Nvidia에서 제공하는 로봇 공학을 위한 플랫폼으로 위에 첨부한 Nvidia의 Isaac Gym 사이트에서 가입과 권한 허가 이후 Isaac Gym 파일을 다운 받을 수 있습니다.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+![Screenshot from 2024-03-06 00-39-49](https://github.com/junofficial/IsaacGym_Install/assets/124868359/9000fed9-87ad-4bfb-95d7-ef00ccd72f27)
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+정상적으로 진행하셨다면 이러한 파일을 다운로드 받을 수 있습니다.
+
 
 Use the `BLANK_README.md` to get started.
 
